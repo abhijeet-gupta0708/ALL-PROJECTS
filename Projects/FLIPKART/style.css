@@ -1,0 +1,41 @@
+*
+{
+    background-color: white;
+    align-items: center;
+}
+.navbar
+{    display: flex;
+    height :67px;
+    justify-content: space-evenly;
+    
+}
+
+#nav-searchbar
+{   
+    width: 4502px;
+
+}
+.flipkart-icon
+{   display: flex;
+    height: 50px;
+    width: 50px;
+    background-image : url("flipkart.png");
+    background-size:contain;
+}
+
+.tophero
+{   display: flex;
+    justify-content: space-around;
+    height: 150px;
+    background-color: antiquewhite;
+    background-size: cover;
+    align-items: flex-end;
+}
+.adhero{
+    height: 200px;
+    display: flex;
+}
+#ad1{
+    background-image: url("ad1.webp");
+    background-size: cover;
+}

@@ -37,7 +37,7 @@ const checkWinner = () => {
 
         if (pos1 !== "" && pos1 === pos2 && pos2 === pos3) {
             console.log("WINNER:", pos1);
-            won.textContent = `${pos1} Wins!`;
+            won.innerText = `${pos1} Wins!`;
             disableAll();
             return true;
         }

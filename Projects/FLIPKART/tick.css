@@ -7,7 +7,7 @@ h1{
     text-align: center;
 }
 .container
-{   
+{   margin-top: 100px;
     height: 100px;
     width: 70vi;
     display: flex;
@@ -53,7 +53,7 @@ h1{
 }
 #back h1{
     justify-content: end;
-    margin-top: 27%;
+    margin-top: 23%;
     margin-right: 68px;
 }
 #reset
@@ -62,17 +62,17 @@ h1{
     align-items: center;
     margin-left: 45%;
     border: 20px;
+    font-weight: 3rem;
     border-color: black;
 }
 .msg-con
 {
     padding: 10px;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    margin-left: 1000px;
+    width: 50px;
+    height: 50px;
+    margin-left: 650px;
     position: absolute;
-    background-color: black;
-    color: white;
+    color: red;
+    font-weight: 3rem;
 
 }

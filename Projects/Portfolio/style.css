@@ -1,0 +1,30 @@
+*
+{
+    background-color: rgb(19, 87, 111);
+    text-align: center;
+    color: #E2E8F0;
+    font-family: 'poppins',sans-serif;
+}
+/* /Head banner */
+.topbanner h1
+{
+    background-color: rgb(175, 81, 5);
+    border: 2px;
+    align-items: center;
+    text-decoration: dotted;
+    width: 100%;
+    height: 50px;
+    position:static;
+    color:rgb(9, 63, 199);
+}
+/* MAin Body starts */
+.profilepicture h1
+{
+    background-color: #2C5364;
+    font-family: sans-serif;
+}
+.profilepicture img
+{
+    border-radius: 50%;
+    border :4px dotted #e8181800
+}

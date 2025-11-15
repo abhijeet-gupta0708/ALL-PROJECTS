@@ -127,4 +127,26 @@
     font-weight: 3rem;
     font-size:xx-large ; 
 }
+/* Three Coloumns Projects, skills , languages, starts */
+.three-columns {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 20px;
+}
 
+.column {
+    flex: 1;
+    background-color: rgba(255,255,255,0.05);
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    color: #CBD5E1;
+}
+
+/* vertical divider */
+.column:not(:last-child) {
+    border-right: 3px solid rgba(255,255,255,0.2);
+}

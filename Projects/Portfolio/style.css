@@ -5,6 +5,7 @@
     color: #CBD5E1;
     font-family: 'poppins',sans-serif;
     margin:0%;
+
 }
 /* /Head banner */
 .topbanner h1
@@ -130,23 +131,28 @@
 /* Three Coloumns Projects, skills , languages, starts */
 .three-columns {
     display: flex;
-    width: 100%;
+    width: 95vw;
     margin-top: 40px;
     padding: 20px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 20px;
+    /* overflow: hidden; */
 }
 
 .column {
     flex: 1;
     background-color: rgba(255,255,255,0.05);
-    padding: 25px;
+    padding: 20px;
     text-align: center;
+    /* overflow: hidden; */
+    width: 100%;
     border-radius: 10px;
     color: #CBD5E1;
-}
-
-/* vertical divider */
-.column:not(:last-child) {
+    padding-right: 0px;
     border-right: 3px solid rgba(255,255,255,0.2);
+}
+.column p
+{
+    /* gap: 100px; */
+    margin: 2px;
 }

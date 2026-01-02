@@ -2,8 +2,6 @@ import random
 num=int(input("Enter a Number Between 1-50  "))
 guessw=random.randint(1,50)
 count=1
-print(guessw)
-
 
 def guess (num,guessw,count):
     if (num==guessw) :

@@ -14,6 +14,8 @@ Projects /
  ├── FLIPKART Clone
  ├── GAMES / ROCK_PAPER_SCISSOR
  ├── Portfolio
+ ├── Robo-Speaking
+ ├── Weather-App
  └── Side Projects
 ```
 
@@ -34,6 +36,9 @@ Each folder contains its own code, assets, and sometimes its own README.
 - HTML
 - CSS
 - JavaScript  
+- Python
+- C++
+- DSA
 *(More coming soon 🔥)*
 
 ---
